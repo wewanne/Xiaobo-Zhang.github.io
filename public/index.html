@@ -64,7 +64,7 @@
     /* 为所有列表项设置样式 */
     li.indented {
         position: relative;
-        padding-left: 90px; /* 这是对齐效果的关键，可以根据实际内容调整这个值 */
+        padding-left: 90px; /* 这是对齐效果的关键，可以根据实际内容调整这个�?*/
     }
 
     li.indented::before {
@@ -151,7 +151,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <i class="ai ai-cv icon-github"></i>
             <span></span>
           </a> -->
-          <a href="https://www.xiaohongshu.com/user/profile/616ae887000000000201f2fa" class="icon-button xiaohongshu" aria-label="小红书" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.xiaohongshu.com/user/profile/616ae887000000000201f2fa" class="icon-button xiaohongshu" aria-label="小红�? target="_blank" rel="noopener noreferrer">
             <i> <img src="https://cdn.simpleicons.org/xiaohongshu/FF2D55" alt="" width="45" height="45" style="vertical-align:middle;"> </i>
             <span></span>
           </a>
@@ -620,7 +620,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
             </div>
             <div class="authors">
               <font style="font-size: 11pt;">
-                Kun Zhang*, Peng Yun*, <b>Jun Cen</b>, Junhao Cai, Didi Zhu, Hangjie Yuan, Chao Zhao, Tao Feng, Michael Yu Wang, Qifeng Chen, Jia Pan, Bo Yang†, Hua Chen†
+                Kun Zhang*, Peng Yun*, <b>Jun Cen</b>, Junhao Cai, Didi Zhu, Hangjie Yuan, Chao Zhao, Tao Feng, Michael Yu Wang, Qifeng Chen, Jia Pan, Bo Yang�? Hua Chen�?
               </font>
             </div>
             <div class="publish">
@@ -1236,12 +1236,12 @@ I'm always looking for related colaboration. If you are interested to chat with 
         const res = await fetch(`https://api.github.com/repos/${owner}/${repo}`);
         if (!res.ok) throw new Error("GitHub API error");
         const data = await res.json();
-        document.getElementById(starId).innerText = data.stargazers_count ?? "–";
-        document.getElementById(forkId).innerText = data.forks_count ?? "–";
+        document.getElementById(starId).innerText = data.stargazers_count ?? "�?;
+        document.getElementById(forkId).innerText = data.forks_count ?? "�?;
       } catch (e) {
         console.error(`Failed to load stats for ${owner}/${repo}`, e);
-        document.getElementById(starId).innerText = "–";
-        document.getElementById(forkId).innerText = "–";
+        document.getElementById(starId).innerText = "�?;
+        document.getElementById(forkId).innerText = "�?;
       }
     }
   }
@@ -1281,7 +1281,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
                 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
               </svg>
-              Star &nbsp;  <span id="star-count">–</span>
+              Star &nbsp;  <span id="star-count">�?/span>
             </a>
             <a href="https://github.com/alibaba-damo-academy/WorldVLA/network/members" target="_blank">
               <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -1295,7 +1295,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
                 </path>
               </svg>
-              Fork &nbsp; <span id="fork-count">–</span>
+              Fork &nbsp; <span id="fork-count">�?/span>
             </a>
           </div>
         </div>
@@ -1322,7 +1322,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
                 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
               </svg>
-              Star &nbsp;<span id="star-count-2">–</span>
+              Star &nbsp;<span id="star-count-2">�?/span>
             </a>
             <a href="https://github.com/GAI4Manipulation/AwesomeGAIManipulation/network/members" target="_blank">
               <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -1336,7 +1336,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
                 </path>
               </svg>
-              Fork &nbsp;<span id="fork-count-2">–</span>
+              Fork &nbsp;<span id="fork-count-2">�?/span>
             </a>
           </div>
         </div>
@@ -1364,7 +1364,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
                 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
               </svg>
-              Star &nbsp;<span id="star-count-4">–</span>
+              Star &nbsp;<span id="star-count-4">�?/span>
             </a>
             <a href="https://github.com/Jun-CEN/SegmentAnyRGBD/network/members" target="_blank">
               <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -1378,7 +1378,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
                 </path>
               </svg>
-              Fork &nbsp;<span id="fork-count-4">–</span>
+              Fork &nbsp;<span id="fork-count-4">�?/span>
             </a>
           </div>
         </div>
@@ -1406,7 +1406,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
                 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
               </svg>
-              Star &nbsp;<span id="star-count-9">–</span>
+              Star &nbsp;<span id="star-count-9">�?/span>
             </a>
             <a href="https://github.com/Jingkang50/PSG4D/network/members" target="_blank">
               <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -1420,7 +1420,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
                 </path>
               </svg>
-              Fork &nbsp;<span id="fork-count-9">–</span>
+              Fork &nbsp;<span id="fork-count-9">�?/span>
             </a>
           </div>
         </div>
@@ -1449,7 +1449,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
                 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
               </svg>
-              Star &nbsp;<span id="star-count-10">–</span>
+              Star &nbsp;<span id="star-count-10">�?/span>
             </a>
             <a href="https://github.com/youquanl/Segment-Any-Point-Cloud/network/members" target="_blank">
               <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -1463,7 +1463,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
                 </path>
               </svg>
-              Fork &nbsp;<span id="fork-count-10">–</span>
+              Fork &nbsp;<span id="fork-count-10">�?/span>
             </a>
           </div>
         </div>
@@ -1490,7 +1490,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
                 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
               </svg>
-              Star &nbsp;<span id="star-count-3">–</span>
+              Star &nbsp;<span id="star-count-3">�?/span>
             </a>
             <a href="https://github.com/Jun-CEN/CMDFusion/network/members" target="_blank">
               <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -1504,7 +1504,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
                 </path>
               </svg>
-              Fork &nbsp;<span id="fork-count-3">–</span>
+              Fork &nbsp;<span id="fork-count-3">�?/span>
             </a>
           </div>
         </div>
@@ -1532,7 +1532,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
                 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
               </svg>
-              Star &nbsp;<span id="star-count-5">–</span>
+              Star &nbsp;<span id="star-count-5">�?/span>
             </a>
             <a href="https://github.com/Jun-CEN/PSL/network/members" target="_blank">
               <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -1546,7 +1546,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
                 </path>
               </svg>
-              Fork &nbsp;<span id="fork-count-5">–</span>
+              Fork &nbsp;<span id="fork-count-5">�?/span>
             </a>
           </div>
         </div>
@@ -1574,7 +1574,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
                 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
               </svg>
-              Star &nbsp;<span id="star-count-6">–</span>
+              Star &nbsp;<span id="star-count-6">�?/span>
             </a>
             <a href="https://github.com/Jun-CEN/Unified-Open-Set-Recognition/network/members" target="_blank">
               <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -1588,7 +1588,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
                 </path>
               </svg>
-              Fork &nbsp;<span id="fork-count-6">–</span>
+              Fork &nbsp;<span id="fork-count-6">�?/span>
             </a>
           </div>
         </div>
@@ -1616,7 +1616,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
                 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
               </svg>
-              Star &nbsp;<span id="star-count-7">–</span>
+              Star &nbsp;<span id="star-count-7">�?/span>
             </a>
             <a href="https://github.com/Jun-CEN/Open-world-3D-semantic-segmentation/network/members" target="_blank">
               <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -1630,7 +1630,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
                 </path>
               </svg>
-              Fork &nbsp;<span id="fork-count-7">–</span>
+              Fork &nbsp;<span id="fork-count-7">�?/span>
             </a>
           </div>
         </div>
@@ -1658,7 +1658,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 
                 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
               </svg>
-              Star &nbsp;<span id="star-count-8">–</span>
+              Star &nbsp;<span id="star-count-8">�?/span>
             </a>
             <a href="https://github.com/Jun-CEN/Open-World-Semantic-Segmentation/network/members" target="_blank">
               <svg fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -1672,7 +1672,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
                 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
                 </path>
               </svg>
-              Fork &nbsp;<span id="fork-count-8">–</span>
+              Fork &nbsp;<span id="fork-count-8">�?/span>
             </a>
           </div>
         </div>
@@ -1718,7 +1718,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
   }
 
   .reviewer-column::before {
-    content: "•";
+    content: "�?;
     position: absolute;
     left: 0;
     color: #555;
@@ -1809,7 +1809,7 @@ I'm always looking for related colaboration. If you are interested to chat with 
             <i class="ai ai-cv icon-github"></i>
             <span></span>
           </a> -->
-          <a href="https://www.xiaohongshu.com/user/profile/616ae887000000000201f2fa" class="icon-button xiaohongshu" aria-label="小红书" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.xiaohongshu.com/user/profile/616ae887000000000201f2fa" class="icon-button xiaohongshu" aria-label="小红�? target="_blank" rel="noopener noreferrer">
             <i> <img src="https://cdn.simpleicons.org/xiaohongshu/FF2D55" alt="" width="45" height="45" style="vertical-align:middle;"> </i>
             <span></span>
           </a>
