@@ -684,7 +684,8 @@ pre>code {
     margin-right: auto;
     margin-left: auto;
     padding-right: 0px;
-    padding-left: 0px
+    padding-left: 0px;
+    margin-top: -50px;
 }
 
 @media screen and (max-width: 800px) {
