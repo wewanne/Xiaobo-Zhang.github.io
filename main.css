@@ -724,7 +724,7 @@ pre>code {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 120px;  /* 向上移动 20px */
+    margin-top: 10px;  /* 向下移动 20px */
 }
 
 @media screen and (max-width: 600px) {
