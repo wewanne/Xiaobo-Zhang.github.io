@@ -684,8 +684,7 @@ pre>code {
     margin-right: auto;
     margin-left: auto;
     padding-right: 0px;
-    padding-left: 0px;
-    margin-top: -50px;
+    padding-left: 0px
 }
 
 @media screen and (max-width: 800px) {
@@ -2053,3 +2052,8 @@ div.paginate-container li:nth-last-child(2) a:after {
     height: 16px;
     margin-right: 4px;
   }
+
+  .social-media {
+    margin-top: -20px;  /* 向上移动 20px */
+  }
+
