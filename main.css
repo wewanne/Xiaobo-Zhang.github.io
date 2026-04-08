@@ -684,7 +684,7 @@ pre>code {
     margin-right: auto;
     margin-left: auto;
     padding-right: 0px;
-    padding-left: 0px
+    padding-left: 0px;
 }
 
 @media screen and (max-width: 800px) {
@@ -692,7 +692,8 @@ pre>code {
         max-width: -webkit-calc(1024px - (30px));
         max-width: calc(1024px - (30px));
         padding-right: 15px;
-        padding-left: 15px
+        padding-left: 15px;
+        margin-top: -20px;  /* 向上移动 20px */
     }
 }
 
@@ -2053,7 +2054,4 @@ div.paginate-container li:nth-last-child(2) a:after {
     margin-right: 4px;
   }
 
-  .social-media {
-    margin-top: -20px;  /* 向上移动 20px */
-  }
 
