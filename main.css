@@ -1973,7 +1973,7 @@ div.paginate-container li:nth-last-child(2) a:after {
     display: flex;
     justify-content: center;
     gap: 4px 2px;  /* row gap 24px, column gap 32px */
-    flex-wrap: nowrap; /* 禁止换行 允许换行用wrap*/
+    flex-wrap: wrap; /* 禁止换行nowrap 允许换行用wrap*/
     width: 940px; /* 控制最大宽度，2列布局 */
     margin: 0 auto;
   }
