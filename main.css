@@ -2110,10 +2110,25 @@ div.paginate-container li:nth-last-child(2) a:after {
     width: 70% !important;
 }
 
-/* Fix 3: Journal name - remove float right, keep it left-aligned */
+/* Fix 3: Merge publish and tags on one line */
 .pub-right > .publish {
     float: none !important;
     margin-top: 4px !important;
+}
+.pub-right > .publish-line {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-top: 4px !important;
+}
+.pub-right > .publish-line > .place {
+    color: #002336;
+    font-size: 14px;
+}
+.pub-right > .publish-line > .tags-inline > .tag {
+    color: #9b3022;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 /* Fix for mobile */
