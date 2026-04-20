@@ -2085,3 +2085,53 @@ div.paginate-container li:nth-last-child(2) a:after {
     width: 28px !important;
     height: 28px !important;
 }
+
+
+/* === Publications Layout Fixes === */
+/* Fix 1: Align Publications section with other sections */
+.publications {
+    max-width: 964px !important;  /* Same as .wrapper: calc(1024px - 30px*2) */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+/* Fix 2: Reduce image width and gap */
+.pub-left {
+    width: 25% !important;
+    padding-right: 15px !important;
+}
+.pub-left > .intro-img {
+    width: 200px !important;
+    height: 95px !important;
+}
+.pub-right {
+    width: 70% !important;
+}
+
+/* Fix 3: Journal name - remove float right, keep it left-aligned */
+.pub-right > .publish {
+    float: none !important;
+    margin-top: 4px !important;
+}
+
+/* Fix for mobile */
+@media screen and (max-width: 800px) {
+    .publications {
+        max-width: 100% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .pub-left {
+        width: 100% !important;
+        padding-right: 0 !important;
+    }
+    .pub-left > .intro-img {
+        width: 280px !important;
+        height: 130px !important;
+    }
+    .pub-right {
+        width: 100% !important;
+    }
+}
