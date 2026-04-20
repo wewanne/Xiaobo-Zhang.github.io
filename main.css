@@ -2131,8 +2131,52 @@ div.paginate-container li:nth-last-child(2) a:after {
     font-size: 14px;
 }
 
+/* Partnership two-column layout */
+.partnership-grid {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.partnership-col {
+    flex: 1;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 24px 28px;
+    border-left: 4px solid #0077B5;
+}
+.partnership-heading {
+    font-size: 18px;
+    color: #002336;
+    margin: 0 0 16px 0;
+    font-weight: 700;
+}
+.partnership-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.partnership-list li {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #333;
+    padding: 6px 0;
+    padding-left: 18px;
+    position: relative;
+}
+.partnership-list li::before {
+    content: "\\2714";
+    color: #0077B5;
+    position: absolute;
+    left: 0;
+    font-size: 12px;
+    top: 9px;
+}
 /* Fix for mobile */
 @media screen and (max-width: 800px) {
+    .partnership-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
     .publications {
         max-width: 100% !important;
         padding-left: 15px !important;
