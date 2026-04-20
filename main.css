@@ -2172,11 +2172,8 @@ div.paginate-container li:nth-last-child(2) a:after {
     top: 7px;
 }
 
-/* What We Have - items with image */
+/* What We Have - items with image below text */
 .partnership-item-with-img {
-    display: flex;
-    align-items: flex-start;
-    gap: 14px;
     padding: 8px 0 8px 18px;
     position: relative;
     font-size: 14px;
@@ -2192,12 +2189,13 @@ div.paginate-container li:nth-last-child(2) a:after {
     top: 11px;
 }
 .partnership-item-with-img .partnership-img {
-    width: 80px;
-    height: 60px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
     border-radius: 6px;
-    flex-shrink: 0;
+    margin-top: 8px;
     border: 1px solid #e0e0e0;
+    display: block;
 }
 /* Fix for mobile */
 @media screen and (max-width: 800px) {
