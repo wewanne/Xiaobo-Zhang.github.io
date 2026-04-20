@@ -2056,3 +2056,32 @@ div.paginate-container li:nth-last-child(2) a:after {
   }
 
 
+
+
+/* === Compact Timeline Enhancements === */
+.timeline-item {
+    margin-bottom: 5px !important;
+    padding-bottom: 2px !important;
+}
+.timeline-desc {
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    line-height: 1.3 !important;
+    margin-top: 2px !important;
+}
+.timeline-title {
+    font-size: 17px !important;
+    line-height: 1.3 !important;
+}
+.timeline-date {
+    font-size: 14px !important;
+    line-height: 1.3 !important;
+}
+.timeline>.timeline-body>.timeline-item:last-child:nth-child(even),
+.timeline>.timeline-body>.timeline-item:last-child:nth-child(odd) {
+    min-height: auto !important;
+}
+.timeline-item img.social-icon {
+    width: 28px !important;
+    height: 28px !important;
+}
