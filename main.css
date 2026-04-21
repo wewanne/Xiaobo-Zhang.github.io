@@ -2172,6 +2172,11 @@ div.paginate-container li:nth-last-child(2) a:after {
     top: 7px;
 }
 
+/* What We Expect - red text */
+.partnership-col:first-child .partnership-item-with-img span {
+    color: #c0392b;
+}
+
 /* What We Have - items with image below text */
 .partnership-item-with-img {
     padding: 8px 0 8px 18px;
