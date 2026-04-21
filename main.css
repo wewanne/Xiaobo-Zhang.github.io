@@ -2197,6 +2197,22 @@ div.paginate-container li:nth-last-child(2) a:after {
     border: 1px solid #e0e0e0;
     display: block;
 }
+/* Partnership - multiple images in a row */
+.partnership-img-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+.partnership-img-multi {
+    flex: 1;
+    min-width: 0;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    display: block;
+}
+
 /* Fix for mobile */
 @media screen and (max-width: 800px) {
     .partnership-grid {
