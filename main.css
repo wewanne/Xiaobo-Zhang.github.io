@@ -2202,6 +2202,7 @@ div.paginate-container li:nth-last-child(2) a:after {
     display: flex;
     gap: 8px;
     margin-top: 8px;
+    align-items: stretch;
 }
 .partnership-img-multi {
     flex: 1;
@@ -2212,6 +2213,15 @@ div.paginate-container li:nth-last-child(2) a:after {
     border: 1px solid #e0e0e0;
     display: block;
 }
+/* Flex weight overrides for small/large images */
+.partnership-img-multi.img-flex-1 { flex: 1; }
+.partnership-img-multi.img-flex-15 { flex: 1.5; }
+.partnership-img-multi.img-flex-2 { flex: 2; }
+/* Square images: show more height to avoid over-cropping */
+.partnership-img-multi.img-square {
+    aspect-ratio: 4 / 3;
+}
+
 
 /* Fix for mobile */
 @media screen and (max-width: 800px) {
